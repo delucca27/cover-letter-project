@@ -1,0 +1,132 @@
+.typo-defaults
+{
+   h1
+   {
+      font: normal 700 76px/78px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+      letter-spacing: -4.45px;
+      color: $h1_color;
+   }
+
+   span
+   {
+      font: normal 500 36px/68px 'Inter', 'Arial', sans-serif;
+      letter-spacing: -1.5px;
+      color: $sonicsilver;
+      margin-bottom: 1.75vh;
+   }
+
+   h3 
+   {
+      font: normal 500 45px/58px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+      letter-spacing: -3.5px;
+      color: #2f2f35;
+      margin-top: 98px;
+      margin-bottom: 2.15vh;
+   }
+
+   h4 
+   {
+      font: normal 500 45px/44px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+      letter-spacing: -3.5px;
+      color: #2f2f35;
+      margin-bottom: .75vh;
+   }
+
+   h5
+   {
+      font: normal 500 36px/normal 'Inter', 'Arial', sans-serif;
+      letter-spacing: -1.5px;
+      color: #63636b;
+
+      span
+      {
+         font: normal 500 36px/28px 'Inter', 'Arial', sans-serif;
+         color: #797985;
+      }
+   }
+
+
+   span.timespan
+   {
+      font: normal 500 28px/30px 'Inter', 'Arial', sans-serif;
+      letter-spacing: -1.5px;
+      color: #8f8fa1;
+      margin-bottom: 1.75vh;
+   }
+
+   button
+   { 
+      text-align: center;
+      font: normal 800 22px/normal 'Inter', 'Arial', sans-serif;
+      color: $lightgray;
+   }
+
+   h2
+   {
+      font: normal 700 45px/normal 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+      letter-spacing: -3.5px;
+      color: #2f2f35;
+      margin-bottom: 1.75vh;
+   }
+
+   p, .email-link
+   {
+      font: normal 400 24px/36px 'Inter', 'Arial', sans-serif;
+      letter-spacing: -1px;
+      color: #9393a1;
+      margin-bottom: 1.75vh;
+   }
+
+   ul.social-media-row
+   {
+      li
+      {
+         font-size: 43px;
+         margin-inline-end: 14px;
+
+         a:visited
+         {
+            color: #9393a1;
+         }
+
+         a:link
+         {
+            color: #9393a1;
+         }
+      }
+   }
+
+   ul.traits-list
+   {
+      li 
+      {
+         font: normal 500 36px/42px 'Inter', 'Arial', sans-serif;
+         color: #63636b;
+         letter-spacing: -2.35px;
+
+         span
+         {
+            color: #8f8fa1;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 790px) {
+   .typo-defaults
+   {
+      span
+      {
+         font: normal 500 28px/26px 'Inter', 'Arial', sans-serif;
+      }
+      h1 
+      {
+         font: normal 700 46px/48px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+      }
+      p 
+      {
+         font: normal 400 22px/42px 'Inter', 'Arial', sans-serif;
+         color: #494957;
+      }
+   }
+}

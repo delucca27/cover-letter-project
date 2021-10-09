@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  border-style: solid;
+  cursor: pointer;
+}
+
+.typo-defaults h1 {
+  font: normal 700 76px/78px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+  letter-spacing: -4.45px;
+  color: #15161d;
+}
+
+.typo-defaults span {
+  font: normal 500 36px/68px 'Inter', 'Arial', sans-serif;
+  letter-spacing: -1.5px;
+  color: #73737d;
+  margin-bottom: 1.75vh;
+}
+
+.typo-defaults h3 {
+  font: normal 500 45px/58px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+  letter-spacing: -3.5px;
+  color: #2f2f35;
+  margin-top: 98px;
+  margin-bottom: 2.15vh;
+}
+
+.typo-defaults h4 {
+  font: normal 500 45px/44px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+  letter-spacing: -3.5px;
+  color: #2f2f35;
+  margin-bottom: .75vh;
+}
+
+.typo-defaults h5 {
+  font: normal 500 36px/normal 'Inter', 'Arial', sans-serif;
+  letter-spacing: -1.5px;
+  color: #63636b;
+}
+
+.typo-defaults h5 span {
+  font: normal 500 36px/28px 'Inter', 'Arial', sans-serif;
+  color: #797985;
+}
+
+.typo-defaults span.timespan {
+  font: normal 500 28px/30px 'Inter', 'Arial', sans-serif;
+  letter-spacing: -1.5px;
+  color: #8f8fa1;
+  margin-bottom: 1.75vh;
+}
+
+.typo-defaults button {
+  text-align: center;
+  font: normal 800 22px/normal 'Inter', 'Arial', sans-serif;
+  color: #d0d0d6;
+}
+
+.typo-defaults h2 {
+  font: normal 700 45px/normal 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+  letter-spacing: -3.5px;
+  color: #2f2f35;
+  margin-bottom: 1.75vh;
+}
+
+.typo-defaults p, .typo-defaults .email-link {
+  font: normal 400 24px/36px 'Inter', 'Arial', sans-serif;
+  letter-spacing: -1px;
+  color: #9393a1;
+  margin-bottom: 1.75vh;
+}
+
+.typo-defaults ul.social-media-row li {
+  font-size: 43px;
+  -webkit-margin-end: 14px;
+          margin-inline-end: 14px;
+}
+
+.typo-defaults ul.social-media-row li a:visited {
+  color: #9393a1;
+}
+
+.typo-defaults ul.social-media-row li a:link {
+  color: #9393a1;
+}
+
+.typo-defaults ul.traits-list li {
+  font: normal 500 36px/42px 'Inter', 'Arial', sans-serif;
+  color: #63636b;
+  letter-spacing: -2.35px;
+}
+
+.typo-defaults ul.traits-list li span {
+  color: #8f8fa1;
+}
+
+@media only screen and (max-width: 790px) {
+  .typo-defaults span {
+    font: normal 500 28px/26px 'Inter', 'Arial', sans-serif;
+  }
+  .typo-defaults h1 {
+    font: normal 700 46px/48px 'Be Vietnam Pro', 'Poppins', 'Inter', 'Arial', sans-serif;
+  }
+  .typo-defaults p {
+    font: normal 400 22px/42px 'Inter', 'Arial', sans-serif;
+    color: #494957;
+  }
+}
+
+.navbar {
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  bottom: 100px;
+}
+
+.navbar__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 900px;
+  height: 100%;
+  margin: auto;
+  padding-inline: 5%;
+}
+
+.navbar__content button {
+  background-color: #00000000;
+  border: none;
+  height: 100%;
+}
+
+.navbar__content ul.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__content ul.nav-list li {
+  -webkit-margin-start: 30px;
+          margin-inline-start: 30px;
+  height: 100%;
+}
+
+.navbar__content ul.nav-list li button {
+  padding: 12px;
+}
+
+.hero {
+  width: 100%;
+  height: 105%;
+  margin-top: 100px;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.hero__content img {
+  background-color: #9df33a;
+  border-radius: 50%;
+  margin-bottom: 32px;
+}
+
+.hero__content button {
+  width: 270px;
+  height: 70px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #15161d;
+  margin-top: 52px;
+  -webkit-animation-name: out;
+          animation-name: out;
+  -webkit-animation-duration: 0.285s;
+          animation-duration: 0.285s;
+}
+
+.written-content {
+  max-width: 1000px;
+  padding-inline: 5%;
+  margin: auto;
+  margin-top: 46px;
+}
+
+.written-content hr {
+  margin-bottom: 38px;
+}
+
+.box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 62px;
+}
+
+.box-container__content {
+  -webkit-box-flex: 55%;
+      -ms-flex: 55%;
+          flex: 55%;
+  margin-left: 3.5%;
+}
+
+.box-container__title {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+ul.traits-list {
+  list-style: none;
+}
+
+ul.social-media-row {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-container__content {
+    -webkit-box-flex: 70%;
+        -ms-flex: 70%;
+            flex: 70%;
+    margin-left: 0;
+    margin-top: 18px;
+  }
+  .box-container__title {
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #d8d9dd;
+  width: 100%;
+  height: 65px;
+}
+/*# sourceMappingURL=style.css.map */

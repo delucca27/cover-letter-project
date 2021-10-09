@@ -1,0 +1,63 @@
+.written-content
+{
+   max-width: 1000px;
+   padding-inline: 5%;
+   margin: auto;
+   margin-top: 46px;
+
+   hr
+   {
+      margin-bottom: 38px;
+   }
+}
+
+.box-container
+{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin-bottom: 62px;
+
+   &__content
+   {
+      flex: 55%;
+      margin-left: 3.5%;
+   }
+
+   &__title
+   {
+      flex: 30%;
+   }
+}
+
+ul.traits-list
+{
+   list-style: none;
+}
+
+ul.social-media-row
+{
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+   .box-container
+   {
+      display: flex;
+      flex-direction: column;
+
+      &__content
+      {
+         flex: 70%;
+         margin-left: 0;
+         margin-top: 18px;
+      }
+
+      &__title
+      {
+         flex: 30%;
+      }
+   }
+}
