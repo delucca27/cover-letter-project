@@ -1,4 +1,4 @@
-import Memoji from "../assets/img/memoji.png";
+import Memoji from "../assets/memoji.png";
 
 
 export default function HeroSection() {
